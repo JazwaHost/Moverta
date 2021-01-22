@@ -1,0 +1,59 @@
+.project {
+  width: 100%;
+  background: linear-gradient(#f7720c60, #fc501c60);
+  border: 5px solid #f7620cf1;
+  border-radius: 30px;
+  overflow: hidden;
+  margin: 10% 0;
+}
+
+.img {
+  width: 30%;
+  height: 100%;
+  margin: 2.5%;
+  float: left;
+}
+
+.img img {
+  width: 100%;
+  margin: 2%;
+}
+
+.project-text {
+  width: 60%;
+  padding: 2%;
+  text-align: left;
+  float: left;
+}
+
+.project-text h1 {
+  font-size: 6vw;
+}
+
+.project-text p {
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 1280px) {
+  .project {
+    margin: 2.5% 0;
+  }
+
+  .img {
+    width: 15%;
+  }
+
+  .project-text {
+    width: 70%;
+  }
+
+  .project-text h1 {
+    font-size: 3vw;
+  }
+
+  .project-text p {
+    font-size: 2vw;
+    font-weight: 500;
+  }
+}

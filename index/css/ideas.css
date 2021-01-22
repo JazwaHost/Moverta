@@ -1,0 +1,43 @@
+.idea {
+  width: 100%;
+  background: linear-gradient(#f7720c60, #fc501c60);
+  border: 5px solid #f7620cf1;
+  border-radius: 30px;
+  margin: 7% 0;
+  text-align: left;
+}
+
+.idea_text {
+  padding: 4%;
+}
+
+.idea_text p {
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .idea {
+    width: calc(100% / 3 - 3%);
+    background: linear-gradient(#f7720c60, #fc501c60);
+    border: 5px solid #f7620cf1;
+    border-radius: 30px;
+    margin: 1% 1%;
+    text-align: left;
+    float: left;
+  }
+
+  .idea_text {
+    padding: 4%;
+  }
+
+  .idea_text p {
+    font-weight: 600;
+  }
+}

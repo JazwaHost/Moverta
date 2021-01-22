@@ -1,0 +1,33 @@
+.container h1 {
+  font-weight: 800;
+  margin-top: 5%;
+}
+
+.container p {
+  font-size: 6vw;
+  font-weight: 500;
+  margin-top: 3%;
+}
+
+@media only screen and (min-width: 1280px) {
+  .container h1 {
+    font-weight: 800;
+    margin-top: 1%;
+    font-size: 2.5vw;
+  }
+
+  .container p {
+    font-size: 1.6vw;
+  }
+
+  .illustration {
+    width: 60%;
+    float: right;
+  }
+
+  .text {
+    width: 40%;
+    text-align: left;
+    padding-top: 4%;
+  }
+}
