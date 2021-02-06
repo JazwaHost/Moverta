@@ -1,12 +1,35 @@
 .container h1 {
   font-weight: 800;
   margin-top: 5%;
+  animation: slideInLeft 1s both;
 }
 
 .container p {
   font-size: 6vw;
   font-weight: 500;
   margin-top: 3%;
+  animation: slideInLeft 1s both;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -23,6 +46,7 @@
   .illustration {
     width: 60%;
     float: right;
+    animation: zoomIn 1s both;
   }
 
   .text {
