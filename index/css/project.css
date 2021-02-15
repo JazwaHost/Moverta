@@ -35,7 +35,7 @@
   font-weight: 600;
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 786px) {
   .project {
     margin: 2.5% 0;
   }
